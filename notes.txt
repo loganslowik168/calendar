@@ -1,0 +1,2 @@
+Notes:
+Using JSON over dill/pickle avoids the inherent risk of unpickling untrusted code.  This permits the transfer of events to others running the same program
